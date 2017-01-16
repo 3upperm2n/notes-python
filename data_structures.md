@@ -5,7 +5,7 @@ immutable, like read-only cache
 use sorted() will return a list of tuple
 
 if you need the dict(), use OrderedDict
-```bash
+```python
 from collections import OrderedDict
 od = OrderedDict(sorted_streams_start)
 ```
