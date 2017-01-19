@@ -11,3 +11,7 @@ od = OrderedDict(sorted_streams_start)
 ```
 ### class
 create a class [example](https://en.wikibooks.org/wiki/A_Beginner's_Python_Tutorial/Classes)
+
+
+### xrange(N)
+it creates a sequence from 0 to N-1
