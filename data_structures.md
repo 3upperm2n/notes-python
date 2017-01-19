@@ -1,7 +1,7 @@
 ### tuple
 immutable, like read-only cache
 
-### Sorting
+### sorting
 use sorted() will return a list of tuple
 
 if you need the dict(), use OrderedDict
@@ -9,3 +9,5 @@ if you need the dict(), use OrderedDict
 from collections import OrderedDict
 od = OrderedDict(sorted_streams_start)
 ```
+### class
+create a class [example](https://en.wikibooks.org/wiki/A_Beginner's_Python_Tutorial/Classes)
