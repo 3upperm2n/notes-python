@@ -6,7 +6,7 @@ conda install numpy pandas matplotlib
 
 conda install jupyter notebook
 
-### show all the installed packages
+* show all the installed packages
 conda list
 
 ### upgrade all packages
@@ -24,3 +24,6 @@ conda update packageName
 
 ### search package
 conda search packageName
+
+* install a package from a channel
+conda install -c channel_name packageName
