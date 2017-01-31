@@ -12,7 +12,7 @@ Timing how quickly your code runs is essential for this optimization. You can us
 * To render figures directly in the notebook, you should use the inline backend with the command %matplotlib inline.
 * On higher resolution screens such as Retina displays, the default images in notebooks can look blurry. Use %config InlineBackend.figure_format = 'retina' after %matplotlib inline to render higher resolution images.
 
-
+![](figs/magic-matplotlib.png)
 
 
 
