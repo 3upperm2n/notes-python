@@ -14,8 +14,9 @@ Timing how quickly your code runs is essential for this optimization. You can us
 
 ![](figs/magic-matplotlib.png)
 
-
-
+### debugging
+With the Python kernel, you can turn on the interactive debugger using the magic command %pdb. When you cause an error, you'll be able to inspect the variables in the current namespace.
+![](figs/magic-pdb.png)
 
 
 There are a whole bunch of other magic commands, I just touched on a few of the ones you'll use the most often. To learn more about them, here's the list of all available [magic commands](http://ipython.readthedocs.io/en/stable/interactive/magics.html).
