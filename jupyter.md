@@ -1,5 +1,7 @@
 ## show help function
+shfit+tab for brief doc
 
+twice for full doc
 
 ## timing
 
