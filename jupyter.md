@@ -20,3 +20,10 @@ With the Python kernel, you can turn on the interactive debugger using the magic
 
 
 There are a whole bunch of other magic commands, I just touched on a few of the ones you'll use the most often. To learn more about them, here's the list of all available [magic commands](http://ipython.readthedocs.io/en/stable/interactive/magics.html).
+
+
+### converting notebooks
+you can use **nbconvert**
+```bash
+jupyter nbconvert --to html notebook.ipynb
+```
