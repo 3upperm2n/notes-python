@@ -19,4 +19,4 @@ it creates a sequence from 0 to N-1
 ## lambda function
 http://www.secnetix.de/olli/Python/lambda_functions.hawk
 
-<img src="figs/lamba_demo.png" height="200">
+<img src="figs/lamba_demo.png" height="300">
