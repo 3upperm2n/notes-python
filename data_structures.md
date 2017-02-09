@@ -12,6 +12,17 @@ od = OrderedDict(sorted_streams_start)
 ## class
 create a class [example](https://en.wikibooks.org/wiki/A_Beginner's_Python_Tutorial/Classes)
 
+## counter from collections
+https://docs.python.org/2/library/collections.html#collections.Counter
+
+```python
+from collections import Counter
+total_counts = Counter()
+
+for idx,rows in reviews.iterrows():
+    total_counts.update(rows[0].split(' '))
+```
+
 
 ## xrange(N)
 it creates a sequence from 0 to N-1
@@ -34,3 +45,4 @@ def update_input_layer(review):
 
 update_input_layer(reviews[0])
 ```
+
