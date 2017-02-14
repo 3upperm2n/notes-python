@@ -25,6 +25,7 @@ conda install packageName=1.01
 ## unintall / update a package
 
 conda remove packageName
+
 conda update packageName
 
 ## search package
