@@ -22,3 +22,26 @@ def update_input_layer(review):
 
 update_input_layer(reviews[0])
 ```
+
+### extended slices
+https://docs.python.org/2.3/whatsnew/section-slices.html
+```python
+>>> L = range(10)
+>>> L[::2]
+[0, 2, 4, 6, 8]
+
+>>> L[::-1]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+
+>>> s='abcd'
+>>> s[::2]
+'ac'
+>>> s[::-1]
+'dcba'
+```
+
+a[x:y:z] is gives the same result as a[slice(x, y, z)]. 
+```python
+>>> range(10).__getitem__(slice(0, 5, 2))
+[0, 2, 4]
+```
