@@ -44,4 +44,7 @@ a[x:y:z] is gives the same result as a[slice(x, y, z)].
 ```python
 >>> range(10).__getitem__(slice(0, 5, 2))
 [0, 2, 4]
+
+>>> range(10)[slice(0, 5, 2)]
+[0, 2, 4]
 ```
