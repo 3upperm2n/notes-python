@@ -28,4 +28,13 @@ for idx,rows in reviews.iterrows():
 it creates a sequence from 0 to N-1
 
 
+## vstack
+Stack arrays in sequence vertically (row wise)
 
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.vstack.html
+
+```python
+self.weights[self.num_layers] = np.vstack((2 * np.random.random(shape) - 1, 2 * np.random.random((1, shape[1])) - 1))
+```
+
+[nn in python] (https://github.com/jiexunsee/Neural-Network-with-Python)
