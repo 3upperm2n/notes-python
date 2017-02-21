@@ -15,3 +15,8 @@ https://docs.python.org/3/tutorial/controlflow.html#unpacking-argument-lists
 >>> concat("earth", "mars", "venus", sep=".")
 'earth.mars.venus'
 ```
+
+### assert
+```python
+assert batch_size is not None, 'You must set the batch size'
+```
