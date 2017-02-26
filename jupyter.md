@@ -43,9 +43,9 @@ Create slideshows from notebooks is one of my favorite features. You can see [an
 The slides are created in notebooks like normal, but you'll need to designate which cells are slides and the type of slide the cell will be. In the menu bar, click View > Cell Toolbar > Slideshow to bring up the slide cell menu on each cell.
 
 ```bash
- jupyter nbconvert notebook.ipynb --to slides
+ jupyter-nbconvert notebook.ipynb --to slides
 ```
 to see it immediately
 ```bash
-jupyter nbconvert notebook.ipynb --to slides --post serve
+jupyter-nbconvert notebook.ipynb --to slides --post serve
 ```
