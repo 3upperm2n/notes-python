@@ -6,6 +6,12 @@ conda install numpy pandas matplotlib
 
 conda install jupyter notebook
 
+## search avail env and activate
+```
+conda env list
+source activate dlnd-tf-lab
+```
+
 ## show all the installed packages
 
 conda list
