@@ -5,6 +5,10 @@ source activate tea_facts
 conda install numpy pandas matplotlib
 
 conda install jupyter notebook
+## remove env
+```
+conda-env remove -n YourEnvName
+```
 
 ## search avail env and activate
 ```
