@@ -1,10 +1,12 @@
-conda create -n tea_facts python=3
+conda create -n tf_cpu python=3
 
-source activate tea_facts
+source activate tf_cpu
 
-conda install numpy pandas matplotlib
+conda install numpy pandas matplotlib jupyter notebook
 
-conda install jupyter notebook
+conda install -c conda-forge tensorflow
+
+
 ## remove env
 ```
 conda-env remove -n YourEnvName
